@@ -89,7 +89,7 @@
 .see-in-in-action {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 116px;
+    margin: 116px 0px;
 }
 
 .see-it-in-action-image {
@@ -120,3 +120,104 @@
     border-radius: 10px;
     border: none;
 }
+
+/* Productive Users Section Styles */
+
+.Productive-Users-Section {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 300px;
+    background-color: #4d47ff1e;
+    border-radius: 24px;
+}
+
+.productive-title {
+    border-radius: 10px;
+    padding: 50px 142px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.threedata-subtitle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-title1, .sub-title2, .sub-title3 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+.subtitle1, .subtitle2, .subtitle3 {
+    text-align: center;
+}
+.subdescription1, .subdescription2, .subdescription3 {
+    color: #00000073;
+    font-size: 20px;
+}
+
+/* What our users say section style */
+
+.first-card-group {
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    border-radius: 14px;
+}
+
+.first-card-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.three-cards {
+    max-width: 1140px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.users-say-title {
+    margin-top: 137px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.first-card-stars-title {
+    font-size: 24px;
+    margin: 24px 0px 8px 0px;
+    font-weight: bold;
+}
+
+.first-card-stars-description {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 24px;
+}
+
+.first-card {
+    padding: 24px;
+    
+}
+
+.first-card-reviewer-name {
+    color: #757575;
+    margin-top: 10px;
+}
+
+.first-card-reviewer-date {
+    color: #B3B3B3;
+}
+
+/* Ready to focus better styles */
