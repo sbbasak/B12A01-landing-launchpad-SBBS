@@ -285,6 +285,14 @@
     padding: 5px 35px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.read-button:hover {
+  background-color: #ffffff;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
 }
 
 .ready-image {
