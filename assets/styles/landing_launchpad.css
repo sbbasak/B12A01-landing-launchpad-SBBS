@@ -268,3 +268,45 @@
 .ready-image-style {
     border-radius: 48px;
 }
+
+/* Get In Touch Style Here */
+
+.get-in-touch {
+    margin-top: 137px;
+    display: flex;
+    gap: 170px;
+    height: 510px;
+}
+
+.get-in-title {
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.get-in-form input[type="text"], .get-in-form input[type="email"], .get-in-form textarea {
+    border-radius: 5px;
+    border: 1px solid #D6DDED;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 20px 0px 20px 5px;
+    margin-bottom: 24px;
+}
+
+.submit-button{
+    height: 48px;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 5px 175px;
+    border-radius: 10px;
+    border: none;
+}
+
+.email, .name, .message {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
