@@ -66,6 +66,14 @@
     border-radius: 10px;
     border: none;
     margin-right: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.signup_btn:hover {
+  background-color: #ffffff;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
 }
 
 .banner_title {
@@ -84,7 +92,16 @@
     padding: 5px 35px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+.banner_btn:hover {
+  background-color: #ffffff;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
+}
+
 
 .btn-banner {
     margin-top: 37px;
@@ -116,7 +133,7 @@
     margin-bottom: 23px;
 }
 
-.launch-live-preview {
+.launch-live-preview-btn {
     height: 48px;
     background-color: #4E47FF;
     font-weight: bold;
@@ -125,7 +142,16 @@
     padding: 5px 35px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+.launch-live-preview-btn:hover {
+  background-color: #ffffff;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
+}
+
 
 /* Productive Users Section Styles */
 
@@ -304,9 +330,59 @@
     padding: 5px 175px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #ffffff;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
 }
 
 .email, .name, .message {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+/* Footer Section Style */
+
+.footer-contents {
+    height: 430px;
+    text-align: center;
+}
+
+.footer-navigation {
+    text-align: center;
+}
+
+.footer-menu {
+    display: inline-flex;
+    gap: 40px;
+    margin: 0 670px;
+    
+}
+.footer-title {
+    padding-top: 104px;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.footer-description {
+    margin-top: 10px;
+    font-size: 16x;
+    color: #8987A1;
+}
+
+.footer-navigation ul li {
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    font-size: 20px;
 }
